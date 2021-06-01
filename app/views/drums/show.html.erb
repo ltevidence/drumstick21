@@ -1,0 +1,50 @@
+<div class="keys">
+  <div datakey="65" class="key">
+  <kbd>A</kbd>
+  <span class="sound">clap</span>
+  </div>
+  <div datakey="83" class="key">
+  <kbd>S</kbd>
+  <span class="sound">hihat</span>
+  </div>
+  <div datakey="68" class="key">
+  <kbd>D</kbd>
+  <span class="sound">kick</span>
+  </div>
+  <div datakey="70" class="key">
+  <kbd>F</kbd>
+  <span class="sound">openhat</span>
+  </div>
+  <div datakey="71" class="key">
+  <kbd>G</kbd>
+  <span class="sound">boom</span>
+  </div>
+  <div datakey="72" class="key">
+  <kbd>H</kbd>
+  <span class="sound">ride</span>
+  </div>
+  <div datakey="74" class="key">
+  <kbd>J</kbd>
+  <span class="sound">snare</span>
+  </div>
+  <div datakey="75" class="key">
+  <kbd>K</kbd>
+  <span class="sound">tom</span>
+  </div>
+  <div datakey="76" class="key">
+  <kbd>L</kbd>
+  <span class="sound">tink</span>
+  </div>
+</div>
+
+<%= audio_tag "clap.wav",datakey:"65", id: "clap-audio" %>
+<%= audio_tag "hihat.wav",datakey:"83", id: "hihat-audio" %>
+<%= audio_tag "kick.wav",datakey:"68", id: "kick-audio" %>
+<%= audio_tag "openhat.wav",datakey:"70", id: "openhat-audio" %>
+<%= audio_tag "boom.wav",datakey:"71", id: "boom-audio" %>
+<%= audio_tag "ride.wav",datakey:"72", id: "ride-audio" %>
+<%= audio_tag "snare.wav",datakey:"74", id: "snare-audio" %>
+<%= audio_tag "tom.wav",datakey:"75", id: "tom-audio" %>
+<%= audio_tag "tink.wav",datakey:"76", id: "tink-audio" %>
+
+<% javascript_tag "drum.js" %>
